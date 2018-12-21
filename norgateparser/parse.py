@@ -267,4 +267,5 @@ def parse_nor_gate_name_to_sequence(name):
             marker = 'BLEOMX'
     return pMOD(homology.upper(), cassette, marker=marker)
 
-parse = parse_nor_gate_name_to_sequence
+# alias for main function
+parse_name = parse_nor_gate_name_to_sequence
